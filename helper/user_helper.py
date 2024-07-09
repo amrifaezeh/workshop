@@ -17,14 +17,14 @@ from dateutil.parser import parse
 
 # URLS
 B2B2C_URLS = {
-    'LK-URL': 'https://www.linkedin.com/',
+    'LK-URL': 'https://www.linkedin.com/login',
 }
 USER = {
-    "LK-USER": "amrifaezeh@gmail.com",
+    "LK-USER": "XXX@gmail.com",
 }
 
 PASSWORDS = {
-    "LK-PSS": "tigerthrone1",
+    "LK-PSS": "XXXX",
 }
 
 class Utils:
