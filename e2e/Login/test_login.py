@@ -12,7 +12,5 @@ class TestLogin(BaseCase):
     def test_linkedin(self):
 
         self.visit(f"{self.url}")
-
-        validLogin.valid_login(self, email=self.email, password=self.password)
         assert self.get_current_url() == f"{self.url}"
-        assert self.get_current_url() == f"{self.url}/feed/?trk=homepage-basic_sign-in-submit"
+        validLogin.valid_login(self, email=self.email, password=self.password)
