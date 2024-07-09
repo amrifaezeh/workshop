@@ -17,42 +17,15 @@ from dateutil.parser import parse
 
 # URLS
 B2B2C_URLS = {
-    'EY_XPRT': 'https://qaey.ixprt.ai/',
-    'LATAM-XPRT': 'https://eylatamqa.ixprt.ai/',
-    'KPMG-UAT': 'https://kpmgsguat.ixprt.ai/',
-    'KPMG-DEV': 'https://kpmgsgdev.ixprt.ai/',
-    'SAAS-UAT': 'https://auditxprtsaasuat.ixprt.ai/',
-    'SAAS-DEV': 'https://auditxprtsaasdev.ixprt.ai/',
-    'SAAS-PROD': 'https://auditxprtsaas.ixprt.ai/',
-    'SAAS-EU': 'https://eu-auditxprt.ixprt.ai/',
-    'KPMG-QA': 'https://kpmgsgqa.ixprt.ai/',
-    'SAAS-EU-DR': 'https://eu-auditxprt-dr.ixprt.ai/'
+    'LK-URL': 'https://www.linkedin.com/',
+}
+USER = {
+    "LK-USER": "amrifaezeh@gmail.com",
 }
 
-# doc rules
-DOC_NAVIGATION = {
-    "SUMMATION_RULES": "e2e/documents/summation_rule/Rules_Summation.xlsx",
-    "SUMMATION_TRAINING": "e2e/documents/summation_rule/Training_Data_summation.json",
-    "RULES_TEST_THIRTEEN": "e2e/documents/summation_rule/rules_test_thirteen.xlsx",
-    "CONSOLIDATED_RULES": "e2e/documents/consolidated_rules/Rules_CONSOLIDATED.xlsx",
-    "CONSOLIDATED_TRAINING_EXCEL": "e2e/documents/consolidated_rules/Training_Data_CONSOLIDATED.xlsx",
-    "CONSOLIDATED_TRAINING_JSON": "e2e/documents/consolidated_rules/Training_Data_CONSOLIDATED.json",
-    "AS-EST_FIN_EMBEBIDAS": "e2e/documents/fs/AS- Est Fin Embebidas S.A. al 31 dic 2020 y 2019 V5 GP (002).docx",
-    "PFU_doc": "e2e/documents/fs/PFU Asia Pacific Pte Ltd.docx"
-}
 PASSWORDS = {
-    "KPMG-UAT": "Alpha123",
-    "EY-LATAM": "Alpha123",
-    "KPMG-DEV": "Alpha123",
-    "SAAS-UAT": "Alpha123",
-    "SAAS-DEV": "Alpha123",
-    "SAAS-PROD": "Alpha123",
-    "SAAS-EU": "Alpha123",
-    "KPMG-QA": "Alpha123",
-    "SAAS-EU-DR": "Alpha123",
-    "SAAS-DEV-CU": "Alpha123"
+    "LK-PSS": "tigerthrone1",
 }
-
 
 class Utils:
     """General utility methods for writing test cases."""
