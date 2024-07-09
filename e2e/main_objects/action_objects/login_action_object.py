@@ -1,4 +1,4 @@
-class validLogin:
+class ValidLogin:
     @staticmethod
     def valid_login(sb, email, password):
         sb.type("#username", email)
